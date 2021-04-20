@@ -42,7 +42,7 @@ app.post("/", function (req, res) {
     const url ="https://us1.api.mailchimp.com/3.0/lists/677b9a6dc3";
     const options = {
             method:"POST",
-            auth : "lalit0506:fd81ae09b7bc3f11f22f1aecf020e9f0-us1"
+            auth : "lalit0506:xxxxxxxxxxxxxxxxxxxxxx"
             
         }
 
@@ -67,5 +67,3 @@ app.post("/", function (req, res) {
 app.listen(process.env.PORT, function () {
     console.log("Server is running")
 })
-//api key = fd81ae09b7bc3f11f22f1aecf020e9f0-us1
-//list id = 677b9a6dc3
